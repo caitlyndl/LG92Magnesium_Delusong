@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>De Lusong, Caitlyn Alyssa</title>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="Caitlyn Alyssa J. De Lusong">
+        <meta name="keywords" content="Javascript">
+        <meta name="revised" content="22-02-2022">
+
+    </head>
+
+    <body>
+        <img id = "sphinx" src = "sphinx.jpeg" width = 100px height = 100px>
+        <br><br>
+        <button onclick = 'sphinxFunction()'>Back to see a sphinx!</button>
+        <button onclick = 'caracalFunction()'>Change to see a caracal!</button>
+
+        <script>
+            var img = document.getElementById("sphinx");
+
+                function sphinxFunction() {
+                    img.src = 'sphinx.jpeg';
+                }
+
+                function caracalFunction() {
+                    img.src = 'caracal.jpeg';
+                }
+
+        </script>
+    </body>
+</html>
